@@ -1,0 +1,32 @@
+=============== Feb 7, 2022 (PST) ===============
+14:31:07.017851 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:31:07.021033 db@open opening
+14:31:07.021495 version@stat F·[] S·0B[] Sc·[]
+14:31:07.022621 db@janitor F·2 G·0
+14:31:07.022634 db@open done T·1.590283ms
+14:35:08.453040 db@close closing
+14:35:08.453197 db@close done T·150.897µs
+=============== Feb 7, 2022 (PST) ===============
+14:37:51.635722 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:37:51.635856 version@stat F·[] S·0B[] Sc·[]
+14:37:51.635885 db@open opening
+14:37:51.635944 journal@recovery F·1
+14:37:51.636623 journal@recovery recovering @1
+14:37:51.637588 memdb@flush created L0@2 N·2 S·181B "loc..seq,v2":"version,v1"
+14:37:51.638267 version@stat F·[1] S·181B[181B] Sc·[0.25]
+14:37:51.641265 db@janitor F·3 G·0
+14:37:51.641293 db@open done T·5.400244ms
+15:00:14.502963 db@close closing
+15:00:14.503070 db@close done T·104.966µs
+=============== Feb 8, 2022 (PST) ===============
+13:30:10.886330 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:30:10.886861 version@stat F·[1] S·181B[181B] Sc·[0.25]
+13:30:10.886894 db@open opening
+13:30:10.886972 journal@recovery F·1
+13:30:10.887928 journal@recovery recovering @3
+13:30:10.888942 memdb@flush created L0@5 N·1 S·162B "loc..seq,v4":"loc..seq,v4"
+13:30:10.889790 version@stat F·[2] S·343B[343B] Sc·[0.50]
+13:30:10.892925 db@janitor F·4 G·0
+13:30:10.892944 db@open done T·6.041559ms
+13:33:47.273209 db@close closing
+13:33:47.273246 db@close done T·35.208µs

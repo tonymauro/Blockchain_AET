@@ -1,0 +1,13 @@
+personal.listAccounts
+base = eth.accounts[0]
+miner.setEtherbase(base)
+eth.coinbase
+miner.start(1)
+miner.stop()
+miner.start(1)
+miner.stop()
+eth.blockNumber
+eth.getBlock(1)
+miner.start(1)
+miner.stop()
+miner.start(1)

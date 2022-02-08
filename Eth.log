@@ -1,0 +1,359 @@
+INFO [02-04|00:58:16.676] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-04|00:58:16.676] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-04|00:58:16.676] Set global gas cap                       cap=50,000,000
+INFO [02-04|00:58:16.676] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-04|00:58:16.677] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-04|00:58:16.695] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-04|00:58:16.696] Initialised chain configuration          config="{ChainID: 654 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [02-04|00:58:16.696] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-04|00:58:16.696] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-04|00:58:16.696] Initialising Ethereum protocol           network=1114 dbversion=<nil>
+INFO [02-04|00:58:16.697] Loaded most recent local header          number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|00:58:16.697] Loaded most recent local full block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|00:58:16.697] Loaded most recent local fast block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+WARN [02-04|00:58:16.697] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [02-04|00:58:16.697] Rebuilding state snapshot 
+INFO [02-04|00:58:16.697] Resuming state snapshot generation       root=3ff7f8..4065ce accounts=0 slots=0 storage=0.00B elapsed="286.269µs"
+INFO [02-04|00:58:16.697] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-04|00:58:16.697] Generated state snapshot                 accounts=2 slots=0 storage=82.00B elapsed="574.109µs"
+INFO [02-04|00:58:16.697] Gasprice oracle is ignoring threshold set threshold=2
+WARN [02-04|00:58:16.698] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [02-04|00:58:16.698] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+Fatal: Error starting protocol stack: listen tcp :30303: bind: address already in use
+INFO [02-04|01:03:56.797] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-04|01:03:56.797] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-04|01:03:56.797] Set global gas cap                       cap=50,000,000
+INFO [02-04|01:03:56.797] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-04|01:03:56.797] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-04|01:03:56.816] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-04|01:03:56.817] Initialised chain configuration          config="{ChainID: 654 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [02-04|01:03:56.817] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-04|01:03:56.817] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-04|01:03:56.817] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [02-04|01:03:56.818] Loaded most recent local header          number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|01:03:56.818] Loaded most recent local full block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|01:03:56.818] Loaded most recent local fast block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|01:03:56.819] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-04|01:03:56.819] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-04|01:03:56.819] Gasprice oracle is ignoring threshold set threshold=2
+WARN [02-04|01:03:56.819] Unclean shutdown detected                booted=2022-02-04T00:58:16-0800 age=5m40s
+WARN [02-04|01:03:56.819] Unclean shutdown detected                booted=2022-02-04T00:59:39-0800 age=4m17s
+WARN [02-04|01:03:56.819] Unclean shutdown detected                booted=2022-02-04T01:00:58-0800 age=2m58s
+WARN [02-04|01:03:56.819] Unclean shutdown detected                booted=2022-02-04T01:02:00-0800 age=1m56s
+WARN [02-04|01:03:56.819] Unclean shutdown detected                booted=2022-02-04T01:02:40-0800 age=1m16s
+INFO [02-04|01:03:56.819] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-04|01:03:56.834] New local node record                    seq=1,643,965,402,244 id=22f888d23fb3da84 ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-04|01:03:56.834] Started P2P networking                   self=enode://a22c42e798cc210cff44c6ec685b878437d58c649dab278c104547b84037a4aae1116dc1ddb7c2b44f2b60cbb7e783b394ddb5ee2287b82df9f33e2346de6046@127.0.0.1:35555
+INFO [02-04|01:03:56.835] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-04|01:03:56.854] Mapped network port                      proto=tcp extport=35555 intport=35555 interface=NAT-PMP(192.168.2.1)
+INFO [02-04|01:03:56.862] Mapped network port                      proto=udp extport=35555 intport=35555 interface=NAT-PMP(192.168.2.1)
+INFO [02-04|01:03:56.872] New local node record                    seq=1,643,965,402,245 id=22f888d23fb3da84 ip=75.83.31.153 udp=35555 tcp=35555
+WARN [02-04|01:03:56.879] Served eth_coinbase                      reqid=3 duration="28.309µs" err="etherbase must be explicitly specified"
+INFO [02-04|01:04:07.722] Looking for peers                        peercount=0 tried=156 static=0
+INFO [02-04|01:04:19.340] Looking for peers                        peercount=0 tried=87  static=0
+ERROR[02-04|01:04:21.156] Snapshot extension registration failed   peer=89027a8b err="peer connected on snap without compatible eth support"
+ERROR[02-04|01:04:21.158] Snapshot extension registration failed   peer=cbd3f861 err="peer connected on snap without compatible eth support"
+ERROR[02-04|01:04:21.426] Snapshot extension registration failed   peer=ace0f0b9 err="peer connected on snap without compatible eth support"
+INFO [02-04|01:04:29.368] Looking for peers                        peercount=0 tried=110 static=0
+ERROR[02-04|01:04:32.119] Snapshot extension registration failed   peer=bd13ea3a err="peer connected on snap without compatible eth support"
+INFO [02-04|01:04:39.397] Looking for peers                        peercount=0 tried=125 static=0
+INFO [02-04|01:04:49.397] Looking for peers                        peercount=0 tried=135 static=0
+INFO [02-04|01:04:59.399] Looking for peers                        peercount=0 tried=111 static=0
+ERROR[02-04|01:05:09.329] Snapshot extension registration failed   peer=092d4dd0 err="peer connected on snap without compatible eth support"
+INFO [02-04|01:05:09.399] Looking for peers                        peercount=0 tried=54  static=0
+INFO [02-04|01:05:17.455] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-04|01:05:17.541] Ethereum protocol stopped 
+INFO [02-04|01:05:17.541] Transaction pool stopped 
+INFO [02-04|01:05:17.542] Writing snapshot state to disk           root=3ff7f8..4065ce
+INFO [02-04|01:05:17.542] Persisted trie from memory database      nodes=0 size=0.00B time="7.179µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-04|01:05:17.542] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-04|01:05:17.544] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=2.065ms
+INFO [02-04|01:05:17.544] Blockchain stopped 
+INFO [02-04|01:06:28.867] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-04|01:06:28.867] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-04|01:06:28.868] Set global gas cap                       cap=50,000,000
+INFO [02-04|01:06:28.868] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-04|01:06:28.868] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-04|01:06:28.880] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-04|01:06:28.881] Initialised chain configuration          config="{ChainID: 654 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [02-04|01:06:28.881] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-04|01:06:28.881] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-04|01:06:28.881] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [02-04|01:06:28.882] Loaded most recent local header          number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|01:06:28.882] Loaded most recent local full block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|01:06:28.882] Loaded most recent local fast block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|01:06:28.882] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-04|01:06:28.883] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-04|01:06:28.883] Gasprice oracle is ignoring threshold set threshold=2
+WARN [02-04|01:06:28.883] Unclean shutdown detected                booted=2022-02-04T00:58:16-0800 age=8m12s
+WARN [02-04|01:06:28.883] Unclean shutdown detected                booted=2022-02-04T00:59:39-0800 age=6m49s
+WARN [02-04|01:06:28.883] Unclean shutdown detected                booted=2022-02-04T01:00:58-0800 age=5m30s
+WARN [02-04|01:06:28.883] Unclean shutdown detected                booted=2022-02-04T01:02:00-0800 age=4m28s
+WARN [02-04|01:06:28.883] Unclean shutdown detected                booted=2022-02-04T01:02:40-0800 age=3m48s
+INFO [02-04|01:06:28.883] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-04|01:06:28.916] New local node record                    seq=1,643,965,402,246 id=22f888d23fb3da84 ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-04|01:06:28.916] Started P2P networking                   self=enode://a22c42e798cc210cff44c6ec685b878437d58c649dab278c104547b84037a4aae1116dc1ddb7c2b44f2b60cbb7e783b394ddb5ee2287b82df9f33e2346de6046@127.0.0.1:35555
+INFO [02-04|01:06:28.916] Mapped network port                      proto=udp extport=35555 intport=35555 interface=NAT-PMP(192.168.2.1)
+INFO [02-04|01:06:28.917] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-04|01:06:28.925] Mapped network port                      proto=tcp extport=35555 intport=35555 interface=NAT-PMP(192.168.2.1)
+INFO [02-04|01:06:28.940] New local node record                    seq=1,643,965,402,247 id=22f888d23fb3da84 ip=75.83.31.153 udp=35555 tcp=35555
+WARN [02-04|01:06:28.956] Served eth_coinbase                      reqid=3 duration="21.465µs" err="etherbase must be explicitly specified"
+ERROR[02-04|01:06:29.281] Snapshot extension registration failed   peer=cbd3f861 err="peer connected on snap without compatible eth support"
+ERROR[02-04|01:06:29.292] Snapshot extension registration failed   peer=89027a8b err="peer connected on snap without compatible eth support"
+ERROR[02-04|01:06:29.549] Snapshot extension registration failed   peer=ace0f0b9 err="peer connected on snap without compatible eth support"
+ERROR[02-04|01:06:29.611] Snapshot extension registration failed   peer=98998f1a err="peer connected on snap without compatible eth support"
+ERROR[02-04|01:06:32.806] Snapshot extension registration failed   peer=522e9b4f err="peer connected on snap without compatible eth support"
+ERROR[02-04|01:06:38.011] Snapshot extension registration failed   peer=162bafc6 err="peer connected on snap without compatible eth support"
+INFO [02-04|01:06:38.993] Looking for peers                        peercount=1 tried=145 static=0
+INFO [02-04|01:06:49.113] Looking for peers                        peercount=1 tried=81  static=0
+INFO [02-04|01:06:51.904] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-04|01:06:51.904] Ethereum protocol stopped 
+INFO [02-04|01:06:51.904] Transaction pool stopped 
+INFO [02-04|01:06:51.904] Writing snapshot state to disk           root=3ff7f8..4065ce
+INFO [02-04|01:06:51.905] Persisted trie from memory database      nodes=0 size=0.00B time="7.635µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-04|01:06:51.905] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-04|01:06:51.908] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=3.175ms
+INFO [02-04|01:06:51.908] Blockchain stopped 
+INFO [02-04|13:35:06.309] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-04|13:35:06.310] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-04|13:35:06.311] Set global gas cap                       cap=50,000,000
+INFO [02-04|13:35:06.311] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-04|13:35:06.312] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-04|13:35:06.325] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-04|13:35:06.326] Initialised chain configuration          config="{ChainID: 654 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [02-04|13:35:06.326] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-04|13:35:06.326] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-04|13:35:06.326] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [02-04|13:35:06.328] Loaded most recent local header          number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|13:35:06.328] Loaded most recent local full block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|13:35:06.328] Loaded most recent local fast block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|13:35:06.329] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-04|13:35:06.329] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-04|13:35:06.330] Gasprice oracle is ignoring threshold set threshold=2
+WARN [02-04|13:35:06.330] Unclean shutdown detected                booted=2022-02-04T00:58:16-0800 age=12h36m50s
+WARN [02-04|13:35:06.330] Unclean shutdown detected                booted=2022-02-04T00:59:39-0800 age=12h35m27s
+WARN [02-04|13:35:06.330] Unclean shutdown detected                booted=2022-02-04T01:00:58-0800 age=12h34m8s
+WARN [02-04|13:35:06.330] Unclean shutdown detected                booted=2022-02-04T01:02:00-0800 age=12h33m6s
+WARN [02-04|13:35:06.330] Unclean shutdown detected                booted=2022-02-04T01:02:40-0800 age=12h32m26s
+INFO [02-04|13:35:06.330] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-04|13:35:06.369] New local node record                    seq=1,643,965,402,248 id=22f888d23fb3da84 ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-04|13:35:06.370] Started P2P networking                   self=enode://a22c42e798cc210cff44c6ec685b878437d58c649dab278c104547b84037a4aae1116dc1ddb7c2b44f2b60cbb7e783b394ddb5ee2287b82df9f33e2346de6046@127.0.0.1:35555
+INFO [02-04|13:35:06.371] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+WARN [02-04|13:35:06.414] Served eth_coinbase                      reqid=3 duration="23.002µs" err="etherbase must be explicitly specified"
+INFO [02-04|13:35:17.894] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-04|13:35:29.915] Looking for peers                        peercount=0 tried=8 static=0
+INFO [02-04|13:35:37.506] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-04|13:35:37.506] Ethereum protocol stopped 
+INFO [02-04|13:35:37.506] Transaction pool stopped 
+INFO [02-04|13:35:37.506] Writing snapshot state to disk           root=3ff7f8..4065ce
+INFO [02-04|13:35:37.506] Persisted trie from memory database      nodes=0 size=0.00B time="3.369µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-04|13:35:37.506] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-04|13:35:37.507] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=1.021ms
+INFO [02-04|13:35:37.507] Blockchain stopped 
+INFO [02-04|13:37:06.874] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-04|13:37:06.874] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-04|13:37:06.874] Set global gas cap                       cap=50,000,000
+INFO [02-04|13:37:06.874] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-04|13:37:06.874] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-04|13:37:06.895] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-04|13:37:06.896] Initialised chain configuration          config="{ChainID: 654 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [02-04|13:37:06.896] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-04|13:37:06.896] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-04|13:37:06.896] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [02-04|13:37:06.897] Loaded most recent local header          number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|13:37:06.897] Loaded most recent local full block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|13:37:06.897] Loaded most recent local fast block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-04|13:37:06.897] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-04|13:37:06.898] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-04|13:37:06.898] Gasprice oracle is ignoring threshold set threshold=2
+WARN [02-04|13:37:06.898] Unclean shutdown detected                booted=2022-02-04T00:58:16-0800 age=12h38m50s
+WARN [02-04|13:37:06.898] Unclean shutdown detected                booted=2022-02-04T00:59:39-0800 age=12h37m27s
+WARN [02-04|13:37:06.898] Unclean shutdown detected                booted=2022-02-04T01:00:58-0800 age=12h36m8s
+WARN [02-04|13:37:06.898] Unclean shutdown detected                booted=2022-02-04T01:02:00-0800 age=12h35m6s
+WARN [02-04|13:37:06.898] Unclean shutdown detected                booted=2022-02-04T01:02:40-0800 age=12h34m26s
+INFO [02-04|13:37:06.898] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-04|13:37:06.941] New local node record                    seq=1,643,965,402,249 id=22f888d23fb3da84 ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-04|13:37:06.942] Started P2P networking                   self=enode://a22c42e798cc210cff44c6ec685b878437d58c649dab278c104547b84037a4aae1116dc1ddb7c2b44f2b60cbb7e783b394ddb5ee2287b82df9f33e2346de6046@127.0.0.1:35555
+INFO [02-04|13:37:06.943] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+WARN [02-04|13:37:06.982] Served eth_coinbase                      reqid=3 duration="25.49µs" err="etherbase must be explicitly specified"
+INFO [02-04|13:37:20.469] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-04|13:37:32.493] Looking for peers                        peercount=0 tried=8 static=0
+INFO [02-04|13:37:43.009] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-04|13:37:58.010] Looking for peers                        peercount=0 tried=1 static=0
+INFO [02-04|13:38:18.010] Looking for peers                        peercount=0 tried=1 static=0
+INFO [02-04|13:38:30.267] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-04|13:38:30.267] Ethereum protocol stopped 
+INFO [02-04|13:38:30.267] Transaction pool stopped 
+INFO [02-04|13:38:30.268] Writing snapshot state to disk           root=3ff7f8..4065ce
+INFO [02-04|13:38:30.268] Persisted trie from memory database      nodes=0 size=0.00B time="8.446µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-04|13:38:30.268] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-04|13:38:30.270] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=2.303ms
+INFO [02-04|13:38:30.270] Blockchain stopped 
+INFO [02-07|14:13:05.755] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-07|14:13:05.765] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-07|14:13:05.766] Set global gas cap                       cap=50,000,000
+INFO [02-07|14:13:05.766] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-07|14:13:05.766] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-07|14:13:05.782] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-07|14:13:05.783] Initialised chain configuration          config="{ChainID: 654 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [02-07|14:13:05.785] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-07|14:13:05.785] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-07|14:13:05.785] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [02-07|14:13:05.788] Loaded most recent local header          number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-07|14:13:05.788] Loaded most recent local full block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-07|14:13:05.788] Loaded most recent local fast block      number=0 hash=f5d149..a498e1 td=512 age=52y10mo1w
+INFO [02-07|14:13:05.789] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-07|14:13:05.789] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-07|14:13:05.790] Gasprice oracle is ignoring threshold set threshold=2
+WARN [02-07|14:13:05.790] Unclean shutdown detected                booted=2022-02-04T00:58:16-0800 age=3d13h14m
+WARN [02-07|14:13:05.790] Unclean shutdown detected                booted=2022-02-04T00:59:39-0800 age=3d13h13m
+WARN [02-07|14:13:05.790] Unclean shutdown detected                booted=2022-02-04T01:00:58-0800 age=3d13h12m
+WARN [02-07|14:13:05.790] Unclean shutdown detected                booted=2022-02-04T01:02:00-0800 age=3d13h11m
+WARN [02-07|14:13:05.790] Unclean shutdown detected                booted=2022-02-04T01:02:40-0800 age=3d13h10m
+INFO [02-07|14:13:05.790] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-07|14:13:05.853] New local node record                    seq=1,643,965,402,250 id=22f888d23fb3da84 ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-07|14:13:05.853] Started P2P networking                   self=enode://a22c42e798cc210cff44c6ec685b878437d58c649dab278c104547b84037a4aae1116dc1ddb7c2b44f2b60cbb7e783b394ddb5ee2287b82df9f33e2346de6046@127.0.0.1:35555
+INFO [02-07|14:13:05.853] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+WARN [02-07|14:13:05.888] Served eth_coinbase                      reqid=3 duration="19.988µs" err="etherbase must be explicitly specified"
+INFO [02-07|14:13:19.377] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:13:29.896] Looking for peers                        peercount=0 tried=8 static=0
+INFO [02-07|14:13:30.217] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-07|14:13:30.217] Ethereum protocol stopped 
+INFO [02-07|14:13:30.217] Transaction pool stopped 
+INFO [02-07|14:13:30.218] Writing snapshot state to disk           root=3ff7f8..4065ce
+INFO [02-07|14:13:30.218] Persisted trie from memory database      nodes=0 size=0.00B time="8.611µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-07|14:13:30.218] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-07|14:13:30.221] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=3.263ms
+INFO [02-07|14:13:30.221] Blockchain stopped 
+INFO [02-07|14:14:28.021] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-07|14:14:28.021] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-07|14:14:28.022] Set global gas cap                       cap=50,000,000
+INFO [02-07|14:14:28.022] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-07|14:14:28.022] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-07|14:14:28.042] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-07|14:14:28.042] Writing default main-net genesis block 
+INFO [02-07|14:14:28.206] Persisted trie from memory database      nodes=12356 size=1.78MiB time=41.692641ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-07|14:14:28.206] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Arrow Glacier: 13773000, MergeFork: <nil>, Engine: ethash}"
+INFO [02-07|14:14:28.206] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-07|14:14:28.206] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-07|14:14:28.206] Initialising Ethereum protocol           network=1234 dbversion=<nil>
+INFO [02-07|14:14:28.207] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:14:28.207] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:14:28.207] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+WARN [02-07|14:14:28.207] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [02-07|14:14:28.207] Rebuilding state snapshot 
+INFO [02-07|14:14:28.207] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B elapsed="259.625µs"
+INFO [02-07|14:14:28.207] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-07|14:14:28.208] Gasprice oracle is ignoring threshold set threshold=2
+WARN [02-07|14:14:28.208] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [02-07|14:14:28.208] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-07|14:14:28.214] New local node record                    seq=1,644,272,068,213 id=3d25db93785deb3f ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-07|14:14:28.214] Started P2P networking                   self=enode://342536318ca416025c74502c2b024081b1da6255d091c7a0f727d154299de91fbb6bb860179344a9eb19ed2cdac611e3beae70afc23ddf3c3281d5a7aafa4149@127.0.0.1:35555
+INFO [02-07|14:14:28.215] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+WARN [02-07|14:14:28.260] Served eth_coinbase                      reqid=3 duration="30.853µs" err="etherbase must be explicitly specified"
+INFO [02-07|14:14:28.307] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB elapsed=100.250ms
+INFO [02-07|14:14:41.737] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:14:52.257] Looking for peers                        peercount=0 tried=8 static=0
+INFO [02-07|14:14:53.479] Your new key was generated               address=0x83ae93968f219c4aD0993BE51c76f99b2f513e2e
+WARN [02-07|14:14:53.479] Please backup your key file!             path=/home/benjamin/project/myDataDir/keystore/UTC--2022-02-07T22-14-52.061552083Z--83ae93968f219c4ad0993be51c76f99b2f513e2e
+WARN [02-07|14:14:53.479] Please remember your password! 
+INFO [02-07|14:15:02.774] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:15:05.754] Your new key was generated               address=0x14041d25a3Eeb5e89cF8F97050a6130022D07Dc5
+WARN [02-07|14:15:05.754] Please backup your key file!             path=/home/benjamin/project/myDataDir/keystore/UTC--2022-02-07T22-15-04.338193901Z--14041d25a3eeb5e89cf8f97050a6130022d07dc5
+WARN [02-07|14:15:05.754] Please remember your password! 
+INFO [02-07|14:15:07.723] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-07|14:15:07.723] Ethereum protocol stopped 
+INFO [02-07|14:15:07.723] Transaction pool stopped 
+INFO [02-07|14:15:07.723] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [02-07|14:15:07.723] Persisted trie from memory database      nodes=0     size=0.00B   time="7.496µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-07|14:15:07.724] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-07|14:15:07.732] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=8.805ms
+INFO [02-07|14:15:07.732] Blockchain stopped 
+INFO [02-07|14:15:40.063] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-07|14:15:40.063] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-07|14:15:40.064] Set global gas cap                       cap=50,000,000
+INFO [02-07|14:15:40.064] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-07|14:15:40.064] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-07|14:15:40.134] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-07|14:15:40.135] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Arrow Glacier: 13773000, MergeFork: <nil>, Engine: ethash}"
+INFO [02-07|14:15:40.135] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-07|14:15:40.135] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-07|14:15:40.135] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [02-07|14:15:40.143] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:15:40.143] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:15:40.143] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:15:40.144] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-07|14:15:40.144] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-07|14:15:40.144] Gasprice oracle is ignoring threshold set threshold=2
+INFO [02-07|14:15:40.144] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-07|14:15:40.153] New local node record                    seq=1,644,272,068,214 id=3d25db93785deb3f ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-07|14:15:40.153] Started P2P networking                   self=enode://342536318ca416025c74502c2b024081b1da6255d091c7a0f727d154299de91fbb6bb860179344a9eb19ed2cdac611e3beae70afc23ddf3c3281d5a7aafa4149@127.0.0.1:35555
+INFO [02-07|14:15:40.154] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-07|14:15:40.193] Etherbase automatically configured       address=0x83ae93968f219c4aD0993BE51c76f99b2f513e2e
+INFO [02-07|14:15:53.675] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:16:05.695] Looking for peers                        peercount=0 tried=8 static=0
+INFO [02-07|14:16:16.221] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:16:26.743] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:16:51.223] Looking for peers                        peercount=0 tried=3 static=0
+INFO [02-07|14:20:57.659] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-07|14:20:57.659] Ethereum protocol stopped 
+INFO [02-07|14:20:57.660] Transaction pool stopped 
+INFO [02-07|14:20:57.660] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [02-07|14:20:57.660] Persisted trie from memory database      nodes=0 size=0.00B time="8.29µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-07|14:20:57.660] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-07|14:20:57.677] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=16.959ms
+INFO [02-07|14:20:57.677] Blockchain stopped 
+INFO [02-07|14:23:44.164] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-07|14:23:44.164] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-07|14:23:44.165] Set global gas cap                       cap=50,000,000
+INFO [02-07|14:23:44.165] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [02-07|14:23:44.165] Allocated cache and file handles         database=/home/benjamin/project/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [02-07|14:23:44.176] Opened ancient database                  database=/home/benjamin/project/myDataDir/geth/chaindata/ancient readonly=false
+INFO [02-07|14:23:44.177] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Arrow Glacier: 13773000, MergeFork: <nil>, Engine: ethash}"
+INFO [02-07|14:23:44.177] Disk storage enabled for ethash caches   dir=/home/benjamin/project/myDataDir/geth/ethash count=3
+INFO [02-07|14:23:44.177] Disk storage enabled for ethash DAGs     dir=/home/benjamin/.ethash count=2
+INFO [02-07|14:23:44.177] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [02-07|14:23:44.186] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:23:44.186] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:23:44.186] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y10mo1w
+INFO [02-07|14:23:44.186] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-07|14:23:44.186] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-07|14:23:44.186] Gasprice oracle is ignoring threshold set threshold=2
+INFO [02-07|14:23:44.187] Starting peer-to-peer node               instance=Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
+INFO [02-07|14:23:44.198] New local node record                    seq=1,644,272,068,215 id=3d25db93785deb3f ip=127.0.0.1 udp=35555 tcp=35555
+INFO [02-07|14:23:44.198] Started P2P networking                   self=enode://342536318ca416025c74502c2b024081b1da6255d091c7a0f727d154299de91fbb6bb860179344a9eb19ed2cdac611e3beae70afc23ddf3c3281d5a7aafa4149@127.0.0.1:35555
+INFO [02-07|14:23:44.199] IPC endpoint opened                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-07|14:23:44.238] Etherbase automatically configured       address=0x83ae93968f219c4aD0993BE51c76f99b2f513e2e
+INFO [02-07|14:23:54.721] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:24:06.745] Looking for peers                        peercount=0 tried=8 static=0
+INFO [02-07|14:24:17.268] Looking for peers                        peercount=0 tried=0 static=0
+INFO [02-07|14:24:35.274] Looking for peers                        peercount=0 tried=1 static=0
+INFO [02-07|14:24:35.609] Updated mining threads                   threads=1
+INFO [02-07|14:24:35.609] Transaction pool price threshold updated price=1,000,000,000
+INFO [02-07|14:24:35.609] Commit new mining work                   number=1 sealhash=e67d27..61f10e uncles=0 txs=0 gas=0 fees=0 elapsed="496µs"
+INFO [02-07|14:24:37.125] Generating DAG in progress               epoch=0 percentage=0 elapsed=832.772ms
+INFO [02-07|14:24:37.806] Generating DAG in progress               epoch=0 percentage=1 elapsed=1.513s
+INFO [02-07|14:24:38.472] Generating DAG in progress               epoch=0 percentage=2 elapsed=2.180s
+INFO [02-07|14:24:39.137] Generating DAG in progress               epoch=0 percentage=3 elapsed=2.844s
+INFO [02-07|14:24:39.804] Generating DAG in progress               epoch=0 percentage=4 elapsed=3.512s
+INFO [02-07|14:24:40.490] Generating DAG in progress               epoch=0 percentage=5 elapsed=4.198s
+INFO [02-07|14:24:41.157] Generating DAG in progress               epoch=0 percentage=6 elapsed=4.865s
+INFO [02-07|14:24:41.827] Generating DAG in progress               epoch=0 percentage=7 elapsed=5.535s
+INFO [02-07|14:24:42.508] Generating DAG in progress               epoch=0 percentage=8 elapsed=6.216s
+INFO [02-07|14:24:43.178] Generating DAG in progress               epoch=0 percentage=9 elapsed=6.886s
+INFO [02-07|14:24:43.845] Generating DAG in progress               epoch=0 percentage=10 elapsed=7.552s
+INFO [02-07|14:24:44.518] Generating DAG in progress               epoch=0 percentage=11 elapsed=8.226s
+INFO [02-07|14:24:45.183] Generating DAG in progress               epoch=0 percentage=12 elapsed=8.891s
+INFO [02-07|14:24:45.853] Generating DAG in progress               epoch=0 percentage=13 elapsed=9.560s
+INFO [02-07|14:24:46.666] Generating DAG in progress               epoch=0 percentage=14 elapsed=10.374s
+INFO [02-07|14:24:47.333] Generating DAG in progress               epoch=0 percentage=15 elapsed=11.041s
+INFO [02-07|14:24:48.006] Generating DAG in progress               epoch=0 percentage=16 elapsed=11.714s
+INFO [02-07|14:24:48.682] Generating DAG in progress               epoch=0 percentage=17 elapsed=12.390s
+INFO [02-07|14:24:48.901] IPC endpoint closed                      url=/home/benjamin/project/myDataDir/geth.ipc
+INFO [02-07|14:24:48.901] Ethereum protocol stopped 
+INFO [02-07|14:24:48.901] Transaction pool stopped 
+INFO [02-07|14:24:48.920] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [02-07|14:24:48.920] Persisted trie from memory database      nodes=0 size=0.00B time="5.73µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-07|14:24:48.921] Writing clean trie cache to disk         path=/home/benjamin/project/myDataDir/geth/triecache threads=8
+INFO [02-07|14:24:48.951] Persisted the clean trie cache           path=/home/benjamin/project/myDataDir/geth/triecache elapsed=29.968ms
+INFO [02-07|14:24:48.951] Blockchain stopped 
