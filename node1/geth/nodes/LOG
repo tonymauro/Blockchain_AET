@@ -30,3 +30,15 @@
 13:30:10.892944 db@open done T·6.041559ms
 13:33:47.273209 db@close closing
 13:33:47.273246 db@close done T·35.208µs
+=============== Feb 8, 2022 (PST) ===============
+14:37:04.523414 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:37:04.523544 version@stat F·[2] S·343B[343B] Sc·[0.50]
+14:37:04.523562 db@open opening
+14:37:04.523609 journal@recovery F·1
+14:37:04.524199 journal@recovery recovering @6
+14:37:04.525010 memdb@flush created L0@8 N·1 S·162B "loc..seq,v6":"loc..seq,v6"
+14:37:04.525679 version@stat F·[3] S·505B[505B] Sc·[0.75]
+14:37:04.528505 db@janitor F·5 G·0
+14:37:04.528519 db@open done T·4.95199ms
+14:52:38.237010 db@close closing
+14:52:38.237065 db@close done T·54.975µs
