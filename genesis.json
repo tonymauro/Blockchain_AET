@@ -13,8 +13,8 @@
     "ethash": {}
    },
   "alloc"      : {
-  "0xCd6178259803a82C523691322c8E4846451525Ca": {"balance": "90000000"},
-  "0xDFBedDFEE66a59195187e673dfecC5527053eECD": {"balance": "10000000"} },
+  "0x4f32C2E2c1E84fcd23341Bd40cDaff562E77601a": {"balance": "90000000"},
+  "0xcAC769B5b5E4d46EC6897DbAc394cfD38dF36075": {"balance": "10000000"} },
   "coinbase"   : "0x0000000000000000000000000000000000000000",
   "difficulty" : "0x200",
   "extraData"  : "",

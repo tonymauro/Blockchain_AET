@@ -1,36 +1,11 @@
+Fatal: Error starting protocol stack: listen tcp :30303: bind: address already in use
 Welcome to the Geth JavaScript console!
 
 instance: Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
-coinbase: 0xcd6178259803a82c523691322c8e4846451525ca
-at block: 577 (Tue Feb 08 2022 14:52:27 GMT-0800 (PST))
+coinbase: 0x4f32c2e2c1e84fcd23341bd40cdaff562e77601a
+at block: 0 (Wed Dec 31 1969 16:00:00 GMT-0800 (PST))
  datadir: /home/benjamin/project/node1
  modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
 
 To exit, press ctrl-d or type exit
-> > > > Fatal: Failed to create the protocol stack: datadir already used by another process
-Fatal: Failed to create the protocol stack: datadir already used by another process
-Fatal: Failed to create the protocol stack: datadir already used by another process
-Welcome to the Geth JavaScript console!
-
-instance: Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
-coinbase: 0xcd6178259803a82c523691322c8e4846451525ca
-at block: 577 (Tue Feb 08 2022 14:52:27 GMT-0800 (PST))
- datadir: /home/benjamin/project/node1
- modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
-
-To exit, press ctrl-d or type exit
-> null
-> > > > ReferenceError: miminer is not defined
-	at <eval>:1:1(0)
-
-> caught interrupt, exiting
-Welcome to the Geth JavaScript console!
-
-instance: Geth/v1.10.15-stable-8be800ff/linux-amd64/go1.17.5
-coinbase: 0xcd6178259803a82c523691322c8e4846451525ca
-at block: 589 (Wed Feb 09 2022 14:15:46 GMT-0800 (PST))
- datadir: /home/benjamin/project/node1
- modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
-
-To exit, press ctrl-d or type exit
-> > 
+> > > > 

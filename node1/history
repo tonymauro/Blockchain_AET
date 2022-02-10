@@ -1,19 +1,27 @@
-personal.listAccounts
-base = eth.accounts[0]
-miner.setEtherbase(base)
-eth.coinbase
+
+personal.Accounts()
+personal.Accounts
+eth.accounts
 miner.start(1)
-miner.stop()
-miner.start(1)
-miner.stop()
-eth.blockNumber
-eth.getBlock(1)
-miner.start(1)
-miner.stop()
-miner.start(1)
-minter.start(1)
-miner.start(1)
-miner.stop()
 miner.stop(1)
+miner.stop
+miner.stop()
+eth.getBalance("0xcac769b5b5e4d46ec6897dbac394cfd38df36075")
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
+var tx = {from: eth.accounts[0], to: eth.accounts[1], value: web3.toWei(1.23, “ether”)}
+personal.Accounts
+personal
+var tx = {from: 0x4f32c2e2c1e84fcd23341bd40cdaff562e77601a, to: 0xcac769b5b5e4d46ec6897dbac394cfd38df36075, value: web3.toWei(1.23, “ether”)}
+var tx = {from: 0x4f32c2e2c1e84fcd23341bd40cdaff562e77601a, to: 0xcac769b5b5e4d46ec6897dbac394cfd38df36075, value: 100}
+tx
+var tx = {from: 0x4f32c2e2c1e84fcd23341bd40cdaff562e77601a, to: 0xcac769b5b5e4d46ec6897dbac394cfd38df36075, value: 100}
+var tx = {from: "0x4f32c2e2c1e84fcd23341bd40cdaff562e77601a", to: "0xcac769b5b5e4d46ec6897dbac394cfd38df36075", value: 100}
 miner.start(1)
-miminer.stop(1)
+miner.stop()
+web3.eth.getTransactionCount(accounts[i])
+web3.eth.getTransactionCount(accounts[0])
+web3.eth.getTransactionCount(eth.accounts[0])
+git status
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
