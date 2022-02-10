@@ -25,3 +25,18 @@ web3.eth.getTransactionCount(eth.accounts[0])
 git status
 eth.getBalance(eth.accounts[0])
 eth.getBalance(eth.accounts[1])
+miner.start(1)
+miner.stop(1)
+miner.stop()
+ls
+eth.getBalance(eth.Accounts[0])
+eth.Account[0]
+personal.Accounts[0]
+eth.accounts[0]
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
+tx
+admin.nodeinfo
+admin.nodeInfo
+admin.addPeer("enode://c3c36bce9cab009314c24e13415f48d2cadc68f06ad959115641a73d6bfbc4aef8c2314b8d01f7e262eb951315eeae3740a266f3572da55f0e237af878cccea5@127.0.0.1:30303?discport=0")
+admin.peers
