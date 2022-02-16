@@ -1,0 +1,25 @@
+personal.listAccounts
+eth.coinbase
+miner.start(1)
+miner.stop()
+a
+miner.stop()
+eth.blockNumber
+eth.getBlock(3)
+personal.listAccounts
+eth.getBalance("0x526f81867cfd811ad5ab981a4dd2e0abf18e5268")
+eth.getBalance("0x9514a7fbefde6f4f6966327327d6431e5c8e0a13")
+var tx = {from:"0x526f81867cfd811ad5ab981a4dd2e0abf18e5268", to:"0x9514a7fbefde6f4f6966327327d6431e5c8e0a13", value:web3.toWei(1,"ether")}
+miner.start(1)
+personal.listAccounts
+eth.blockNumber
+eth.getBalance("0x526f81867cfd811ad5ab981a4dd2e0abf18e5268")
+eth.getBalance("0x9514a7fbefde6f4f6966327327d6431e5c8e0a13")
+16000000000000000000-1
+personal.listAccounts
+eth.blockNumbere
+eth.blockNumbeer
+eth.blockNumber
+var tx = {'from':"0x526f81867cfd811ad5ab981a4dd2e0abf18e5268", 'to':"0x9514a7fbefde6f4f6966327327d6431e5c8e0a13", 'value':web3.toWei(1,"ether")}
+miner.start(1)
+miner.stop()
