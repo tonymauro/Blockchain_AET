@@ -17,6 +17,8 @@ while (not validate(accountInput)):
 	accountInput = input("Enter two accounts in the format '<from> <to>' to send a transaction between. Use account numbers that are above 0").split()
 a1,a2 = map(int,accountInput)
 
+privKey = input("Enter the private key of the account sending the transaction")
+
 #User input for transaction value
 ethInput = ""
 while (not ethInput.isnumeric())"
@@ -35,14 +37,20 @@ w3.geth.personal.unlockAccount(accounts[0],"password1",15000)
 
 #prints accounts and balances
 print(accounts)
-print(w3.eth.get_balance(accounts[a0]))
 print(w3.eth.get_balance(accounts[a1]))
+print(w3.eth.get_balance(accounts[a2]))
 
-#creates transaction
-tx = {'from':accounts[a0], 'to':accounts[a1],'value':w3.toWei(ethTransact,"ether")}
+#creates and signs transaction
+nonce = web3.eth.getTransactionCount(a1)
+tx = {
+    'nonce': nonce,
+    'to': a2,
+    'value': web3.toWei(ethTransact, 'ether'),
+}
+signed_tx = web3.eth.account.sign_transaction(tx, privKey)
 
 #sends transaction and saves the hash
-thash = w3.eth.send_transaction(tx)
+thash = web3.eth.sendRawTransaction(signed_tx.rawTransaction)
 
 #mine the transaction and stop mining when we receive a transaction receipt
 w3.geth.miner.start(1)
